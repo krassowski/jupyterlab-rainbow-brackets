@@ -7,8 +7,8 @@ A JupyterLab/Jupyter Notebook 7+ extension adding rainbow brackets/parentheses t
 
 Provides seven colours of brackets, with two sets of colors tuned for light and dark themes:
 
-| In Light Mode | In Dark Mode |
-|--|--|
+| In Light Mode                            | In Dark Mode                           |
+| ---------------------------------------- | -------------------------------------- |
 | ![rainbow brackets in light mode][light] | ![rainbow brackets in dark mode][dark] |
 
 The colors are fully customizable in the settings:
