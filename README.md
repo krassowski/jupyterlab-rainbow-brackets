@@ -2,6 +2,7 @@
 
 [![Github Actions Status](https://github.com/krassowski/jupyterlab-rainbow-brackets/workflows/Build/badge.svg)](https://github.com/krassowski/jupyterlab-rainbow-brackets/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krassowski/jupyterlab-rainbow-brackets/main?urlpath=lab)
+[![PyPI version](https://img.shields.io/pypi/v/jupyterlab-rainbow-brackets.svg)](https://pypi.org/project/jupyterlab-rainbow-brackets/)
 
 A JupyterLab/Jupyter Notebook 7+ extension adding rainbow brackets/parentheses to the editor, based on [rainbowbrackets](https://github.com/eriknewland/rainbowbrackets).
 
@@ -13,11 +14,15 @@ Provides seven colours of brackets, with two sets of colors tuned for light and 
 
 The colors are fully customizable in the settings:
 
-![rainbow brackets settings][settings]
+<p align="center">
+
+  ![rainbow brackets settings][settings]
+
+</p>
 
 [light]: https://raw.githubusercontent.com/krassowski/jupyterlab-rainbow-brackets/main/docs/images/light.png
 [dark]: https://raw.githubusercontent.com/krassowski/jupyterlab-rainbow-brackets/main/docs/images/dark.png
-[settings]: https://raw.githubusercontent.com/krassowski/jupyterlab-rainbow-brackets/main/docs/images/dark.png
+[settings]: https://raw.githubusercontent.com/krassowski/jupyterlab-rainbow-brackets/main/docs/images/settings.png
 
 ## Requirements
 
