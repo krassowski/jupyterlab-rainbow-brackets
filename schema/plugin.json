@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "jupyterlab-rainbow-brackets",
+  "description": "jupyterlab-rainbow-brackets settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
