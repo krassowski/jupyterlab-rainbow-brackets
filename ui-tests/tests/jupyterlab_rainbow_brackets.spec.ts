@@ -1,24 +1,25 @@
 import { expect, test } from '@jupyterlab/galata';
 
-/**
- * Don't load JupyterLab webpage before running the tests.
- * This is required to ensure we capture all log messages.
- */
-test.use({ autoGoto: false });
+const brackets = `{
+    {
+        {
+            [
+                {
+                    {
+                        (
+                            ()
+                        )
+                    }
+                }
+            ]
+        }
+    }
+}`;
 
-test('should emit an activation console message', async ({ page }) => {
-  const logs: string[] = [];
+test('should add colors to braces/brackets/parens', async ({ page }) => {
+  await page.notebook.createNew();
+  page.notebook.setCell(0, 'code', brackets);
 
-  page.on('console', message => {
-    logs.push(message.text());
-  });
-
-  await page.goto();
-
-  expect(
-    logs.filter(
-      s =>
-        s === 'JupyterLab extension jupyterlab-rainbow-brackets is activated!'
-    )
-  ).toHaveLength(1);
+  const cell = await page.notebook.getCell(0);
+  expect(cell!.screenshot()).toMatchSnapshot('brackets-light-mode');
 });
