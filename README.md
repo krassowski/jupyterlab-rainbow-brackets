@@ -1,20 +1,34 @@
-# jupyterlab_rainbow_brackets
+# jupyterlab-rainbow-brackets
 
 [![Github Actions Status](https://github.com/krassowski/jupyterlab-rainbow-brackets/workflows/Build/badge.svg)](https://github.com/krassowski/jupyterlab-rainbow-brackets/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krassowski/jupyterlab-rainbow-brackets/main?urlpath=lab)
 
-A JupyterLab extension adding rainbow brackets/parentheses to the editor, based on [rainbowbrackets](https://github.com/eriknewland/rainbowbrackets).
+A JupyterLab/Jupyter Notebook 7+ extension adding rainbow brackets/parentheses to the editor, based on [rainbowbrackets](https://github.com/eriknewland/rainbowbrackets).
+
+Provides seven colours of brackets, with two sets of colors tuned for light and dark themes:
+
+| In Light Mode | In Dark Mode |
+|--|--|
+| ![rainbow brackets in light mode][light] | ![rainbow brackets in dark mode][dark] |
+
+The colors are fully customizable in the settings:
+
+![rainbow brackets settings][settings]
+
+[light]: https://raw.githubusercontent.com/krassowski/jupyterlab-rainbow-brackets/main/docs/images/light.png
+[dark]: https://raw.githubusercontent.com/krassowski/jupyterlab-rainbow-brackets/main/docs/images/dark.png
+[settings]: https://raw.githubusercontent.com/krassowski/jupyterlab-rainbow-brackets/main/docs/images/dark.png
 
 ## Requirements
 
-- JupyterLab >= 4.0.0
+- JupyterLab >= 4.0.0 or Jupyter Notebook >= 7.0.0
 
 ## Install
 
 To install the extension, execute:
 
 ```bash
-pip install jupyterlab_rainbow_brackets
+pip install jupyterlab-rainbow-brackets
 ```
 
 ## Uninstall
@@ -22,7 +36,7 @@ pip install jupyterlab_rainbow_brackets
 To remove the extension, execute:
 
 ```bash
-pip uninstall jupyterlab_rainbow_brackets
+pip uninstall jupyterlab-rainbow-brackets
 ```
 
 ## Contributing
@@ -66,7 +80,7 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
-pip uninstall jupyterlab_rainbow_brackets
+pip uninstall jupyterlab-rainbow-brackets
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
