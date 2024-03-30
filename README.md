@@ -15,9 +15,7 @@ Provides seven colours of brackets, with two sets of colors tuned for light and 
 The colors are fully customizable in the settings:
 
 <p align="center">
-
-  ![rainbow brackets settings][settings]
-
+  <img width="460"  src="https://raw.githubusercontent.com/krassowski/jupyterlab-rainbow-brackets/main/docs/images/settings.png" alt="rainbow brackets settings">
 </p>
 
 [light]: https://raw.githubusercontent.com/krassowski/jupyterlab-rainbow-brackets/main/docs/images/light.png
