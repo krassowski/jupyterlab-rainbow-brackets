@@ -21,5 +21,5 @@ test('should add colors to braces/brackets/parens', async ({ page }) => {
   page.notebook.setCell(0, 'code', brackets);
 
   const cell = await page.notebook.getCell(0);
-  expect(cell!.screenshot()).toMatchSnapshot('brackets-light-mode');
+  expect(await cell!.screenshot()).toMatchSnapshot('brackets-light-mode');
 });
